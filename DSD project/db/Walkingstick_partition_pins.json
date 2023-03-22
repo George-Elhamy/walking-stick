@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "V",
+					"strict" : false
+				},
+				{
+					"name" : "switch",
+					"strict" : false
+				},
+				{
+					"name" : "T",
+					"strict" : false
+				},
+				{
+					"name" : "IR",
+					"strict" : false
+				},
+				{
+					"name" : "arduino",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

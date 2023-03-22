@@ -1,0 +1,10 @@
+|stick
+IR => V.IN0
+T => B.IN0
+switch => V.IN1
+switch => B.IN1
+arduino => V.IN1
+B << B.DB_MAX_OUTPUT_PORT_TYPE
+V << V.DB_MAX_OUTPUT_PORT_TYPE
+
+

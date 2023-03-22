@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity stick is
+port (IR , T : in std_logic ;
+		B , V : out std_logic );
+end stick 
+
+architecture arch of stick is 
+begin 
+    V <= IR ; 
+	 B <= not T ; 
+end arch ;  
